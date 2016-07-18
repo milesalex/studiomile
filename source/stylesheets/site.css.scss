@@ -31,8 +31,12 @@
 html {
   line-height: 1.5em;
   font-family: "BentonSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
+
+  @media screen and (min-width: 500px) {
+    font-size: 14px;
+  }
 }
 
 .wrap {
